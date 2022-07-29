@@ -950,7 +950,7 @@ export function calculateBPModsSMSS(
   // Items
 
   if (attacker.hasItem(`${move.type} Gem`)) {
-    bpMods.push(5325);
+    bpMods.push(6144);
     desc.attackerItem = attacker.item;
   } else if (
     (attacker.hasItem('Adamant Orb') &&
