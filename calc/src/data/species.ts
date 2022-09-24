@@ -8890,6 +8890,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Mr. Mime': {bs: {hp: 50}},
   'Mr. Rime': {bs: {at: 65, sd: 90, sp: 100}},
   'Morpeko': {bs: {at: 110}},
+  'Morpeko-Hangry': {bs: {at: 110}},
   'Mothim': {bs: {at: 84, sp: 80}},
   'Noctowl': {bs: {hp: 110}},
   'Noivern': {bs: {sa: 102}},
