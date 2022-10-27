@@ -4299,6 +4299,12 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     zp: 180,
     maxPower: 130,
   },
+  'Dire Claw': {
+    bp: 70,
+    type: 'Poison',
+    category: 'Physical',
+    secondaries: true,
+  },
   'Draco Barrage': {
     bp: 100,
     type: 'Dragon',
@@ -4327,6 +4333,24 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     category: 'Special',
     secondaries: true,
     zp: 120,
+  },
+  'Mountain Gale': {
+    bp: 120,
+    type: 'Ice',
+    category: 'Physical',
+    secondaries: true,
+  },
+  'Mystical Power': {
+    bp: 70,
+    type: 'Psychic',
+    category: 'Special',
+    secondaries: true,
+  },
+  'Psyshield Bash': {
+    bp: 70,
+    type: 'Psychic',
+    category: 'Physical',
+    secondaries: true,
   },
   'Sonic Slash': {
     bp: 0,
