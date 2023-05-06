@@ -925,7 +925,9 @@ export function calculateBPModsSMSS(
     bpMods.push(4915);
   }
 
-  if ((attacker.hasAbility('Reckless') && (move.recoil || move.hasCrashDamage)) ||
+  if ((attacker.hasAbility('Reckless') && (
+        move.recoil || move.hasCrashDamage || move.named('Explosion', 'Misty Explosion', 'Self-Destruct')
+      )) ||
       (attacker.hasAbility('Liquid Voice') && move.flags.sound) ||
       (attacker.hasAbility('Blademaster') && move.flags.sword)
   ) {
