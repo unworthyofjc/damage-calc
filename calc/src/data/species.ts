@@ -8759,7 +8759,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Beartic': {types: ['Ice', 'Fighting'], bs: {at: 140}},
   'Beautifly': {bs: {sa: 105, sp: 75}},
   'Beheeyem': {bs: {hp: 95}},
-  'Bellossom': {types: ['Grass', 'Fairy'], bs: {hp: 85, at: 70}},
+  'Bellossom': {types: ['Grass', 'Fairy']},
   'Bibarel': {bs: {df: 80, sd: 80, sp: 50}},
   'Blitzle': {otherFormes: ['Blitzle-Sevii']},
   'Boltund': {bs: {at: 100, sa: 80}},
