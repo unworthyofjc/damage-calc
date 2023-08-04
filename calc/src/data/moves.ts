@@ -4844,6 +4844,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	'Snipe Shot': {bp: 70, isBullet: true, isPulse: true},
 	'Sparkly Swirl': {bp: 95, zp: 175, maxPower: 130},
 	'Spike Cannon': {isBullet: true, zp: 100},
+  'Spin Out': {bp: 110},
 	'Steam Eruption': {bp: 120, zp: 190},
 	'Steel Roller': {maxPower: 100},
 	Stomp: {isKick: true},
