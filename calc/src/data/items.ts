@@ -15,7 +15,6 @@ const GSC = [
   'Charcoal',
   'Dragon Fang',
   'Dragon Scale',
-  'Energy Powder',
   'Fast Ball',
   'Fire Stone',
   'Focus Band',
@@ -483,10 +482,27 @@ for (let i = 0; i < 100; i++) {
   SS.push(`TR${i < 10 ? `0${i}` : i}`);
 }
 
-// Added after the TR's to maintain sort order
+// Added after the TRs to maintain sort order
 SS.push('Utility Umbrella', 'Vile Vial');
+
 // Because we support National Dex all Past items are added back in
 SS.push(...GSC_ONLY, 'Old Amber');
+
+const SV = SS.concat([
+  'Adamant Crystal',
+  'Auspicious Armor',
+  'Ability Shield',
+  'Booster Energy',
+  'Clear Amulet',
+  'Covert Cloak',
+  'Loaded Dice',
+  'Malicious Armor',
+  'Mirror Herb',
+  'Punching Glove',
+  'Lustrous Globe',
+  'Griseous Core',
+  'Strange Ball',
+]);
 
 const BERRIES: {[berry: string]: {t: I.TypeName; p: number}} = {
   'Aguav Berry': {t: 'Dragon', p: 80},
@@ -568,7 +584,7 @@ const BERRIES: {[berry: string]: {t: I.TypeName; p: number}} = {
   'Yache Berry': {t: 'Ice', p: 80},
 };
 
-export const ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS];
+export const ITEMS = [[], RBY, GSC, ADV, DPP, BW, XY, SM, SS, SV];
 
 export class Items implements I.Items {
   private readonly gen: I.GenerationNum;
