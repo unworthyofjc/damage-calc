@@ -4748,6 +4748,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 };
 
 const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
+  'Armor Cannon': {isPulse: true},
   'Arm Thrust': {bp: 25},
 	'Astral Barrage': {maxPower: 120},
 	'Attack Order': {bp: 120, zp: 190},
