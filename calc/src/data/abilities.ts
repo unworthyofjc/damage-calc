@@ -327,7 +327,7 @@ const SV = SS.concat([
   'Zero to Hero',
 ]);
 
-const RR = SS.concat([
+const RR = SV.concat([
   'Bad Company',
   'Blazing Soul',
   'Blubber Defense',
