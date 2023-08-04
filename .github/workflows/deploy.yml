@@ -6,27 +6,28 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: Zarel/setup-node@patch-1
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 18
     - name: Install and Build
       run: |
         npm install
         node build
-    - name: Get short SHA
-      id: vars
-      shell: bash
-      run: |
-        echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.3.4
+    - name: Upload artifact for GitHub Pages
+      uses: actions/upload-pages-artifact@v2
       with:
-        folder: dist
-        commit-message: "Deploy ${{ steps.vars.outputs.sha_short }}"
-        clean-exclude: favicon.ico
+        path: 'dist'
+    - uses: actions/configure-pages@v3
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
