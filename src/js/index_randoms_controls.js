@@ -166,6 +166,8 @@ $(".mode").change(function () {
 		window.location.replace('randoms' + linkExtension + '?' + params);
 	} else if (mode === 'one-vs-one') {
 		window.location.replace('index' + linkExtension + '?' + params);
+	} else if (mode === 'normal') {
+		window.location.replace('normal' + linkExtension + '?' + params);
 	} else if (mode === 'hardcore') {
 		window.location.replace('hardcore' + linkExtension + '?' + params);
 	} else {
@@ -181,12 +183,22 @@ $(document).ready(function () {
 	var params = new URLSearchParams(window.location.search);
 	var m = params.get('mode');
 	if (m) {
-		if (m !== 'one-vs-one' && m !== 'randoms' && m !== 'hardcore') {
+		if (m !== 'one-vs-one' && m !== 'randoms' && m !== 'normal' && m !== 'hardcore') {
 			window.location.replace('honkalculate' + linkExtension + '?' + params);
 		} else {
 			if ($('#randoms').prop('checked')) {
 				if (m === 'one-vs-one') {
 					window.location.replace('index' + linkExtension + '?' + params);
+				} else if (m === 'normal') {
+					window.location.replace('normal' + linkExtension + '?' + params);
+				} else if (m === 'hardcore') {
+					window.location.replace('hardcore' + linkExtension + '?' + params);
+				}
+			} else if ($('#normal').prop('checked')) {
+				if (m === 'one-vs-one') {
+					window.location.replace('index' + linkExtension + '?' + params);
+				} else if (m === 'randoms') {
+					window.location.replace('randoms' + linkExtension + '?' + params);
 				} else if (m === 'hardcore') {
 					window.location.replace('hardcore' + linkExtension + '?' + params);
 				}
@@ -195,10 +207,14 @@ $(document).ready(function () {
 					window.location.replace('index' + linkExtension + '?' + params);
 				} else if (m === 'randoms') {
 					window.location.replace('randoms' + linkExtension + '?' + params);
+				} else if (m === 'normal') {
+					window.location.replace('normal' + linkExtension + '?' + params);
 				}
 			} else {
 				if (m === 'randoms') {
 					window.location.replace('randoms' + linkExtension + '?' + params);
+				} else if (m === 'normal') {
+					window.location.replace('normal' + linkExtension + '?' + params);
 				} else if (m === 'hardcore') {
 					window.location.replace('hardcore' + linkExtension + '?' + params);
 				}
