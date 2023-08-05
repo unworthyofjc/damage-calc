@@ -10044,7 +10044,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Stonjourner': {bs: {sd: 50, sp: 80}},
   'Stoutland': {bs: {hp: 90, at: 115}},
   'Sudowoodo': {bs: {hp: 90}},
-  'Sunflora': {types: ['Grass', 'Fire'], bs: {hp: 95, sa: 135, sp: 55}},
+  'Sunflora': {bs: {hp: 95, sa: 135, sp: 55}},
   'Swalot': {bs: {at: 53, df: 88, sa: 93, sd: 88}},
   'Swanna': {bs: {at: 77, sa: 97, sp: 108}},
   'Swoobat': {bs: {hp: 75, df: 65}},
