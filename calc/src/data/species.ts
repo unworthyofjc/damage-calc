@@ -10066,6 +10066,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Unfezant': {bs: {sp: 108}},
   'Ursaring': {nfe: true, otherFormes: ['Ursaring-Sevii']},
   'Vanilluxe': {bs: {at: 90, sp: 84}},
+  'Veluza': {bs: {hp: 95, df: 83, sd: 75}},
   'Venomoth': {types: ['Bug', 'Psychic'], bs: {df: 65, sa: 95}},
   'Vespiquen': {bs: {hp: 85}},
   'Victreebel': {bs: {df: 70, sd: 75}},
