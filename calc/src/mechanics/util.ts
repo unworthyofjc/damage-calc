@@ -128,7 +128,7 @@ export function getFinalSpeed(gen: Generation, pokemon: Pokemon, field: Field, s
 
   if (
     pokemon.hasItem('Choice Scarf') ||
-    (pokemon.named('Farfetch\'d', 'Farfetch\'d-Galar') && pokemon.hasItem('Leek'))
+    (pokemon.named('Farfetch\u2019d', 'Farfetch\u2019d-Galar') && pokemon.hasItem('Leek'))
   ) {
     speedMods.push(6144);
   } else if (pokemon.hasItem('Iron Ball', ...EV_ITEMS)) {
