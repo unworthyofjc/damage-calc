@@ -4827,6 +4827,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	'Pin Missile': {zp: 100},
 	'Poison Fang': {bp: 75, zp: 140, maxPower: 130},
 	Poltergeist: {maxPower: 110},
+  Pounce: {bp: 60},
 	'Pyro Ball': {isKick: true},
 	'Revelation Dance': {bp: 100, type: 'Fairy'},
 	'Roar of Time': {bp: 80, zp: 160},
