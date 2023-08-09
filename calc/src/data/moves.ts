@@ -4748,7 +4748,7 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 };
 
 const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
-  'Aqua Step': {zp: 140, maxPower: 120},
+  'Aqua Step': {isKick: true, zp: 140, maxPower: 120},
   'Armor Cannon': {isPulse: true},
   'Arm Thrust': {bp: 25},
 	'Astral Barrage': {maxPower: 130},
@@ -4887,7 +4887,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Torch Song': {zp: 140, maxPower: 120},
   'Trailblaze': {maxPower: 90},
 	'Tri Attack': {bp: 90, zp: 175},
-  'Triple Arrows': {zp: 160, maxPower: 120},
+  'Triple Arrows': {isKick: true, zp: 160, maxPower: 120},
 	'Triple Axel': {isKick: true, zp: 100},
 	'Triple Kick': {bp: 20, isKick: true, zp: 100},
 	'Trop Kick': {isKick: true},
