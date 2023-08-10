@@ -4748,6 +4748,8 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 };
 
 const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
+  'Aerial Ace': {isSlicing: false},
+  'Air Slash': {isSlicing: false},
   'Aqua Step': {isKick: true, zp: 140, maxPower: 120},
   'Armor Cannon': {isPulse: true},
   'Arm Thrust': {bp: 25},
@@ -4776,6 +4778,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	'Clanging Scales': {zp: 190},
   'Collision Course': {maxPower: 110},
 	Covet: {type: 'Fairy'},
+  'Cross Poison': {isSlicing: false},
 	Cut: {bp: 75, type: 'Steel', zp: 140, maxPower: 130},
 	'Diamond Storm': {category: 'Special'},
   'Dire Claw': {zp: 140, maxPower: 120},
@@ -4877,8 +4880,8 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	'Steel Roller': {maxPower: 100},
 	Stomp: {isKick: true},
   'Stone Axe': {zp: 160, maxPower: 130},
-	'Sucker Punch': {isPunch: true, zp: 160},
-	'Surging Strikes': {zp: 190},
+	'Sucker Punch': {zp: 160},
+	'Surging Strikes': {isPunch: false, zp: 190},
 	'Tail Slap': {zp: 100},
 	'Thousand Arrows': {zp: 175},
 	Thunder: {zp: 190},
@@ -4924,6 +4927,8 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
     bp: 0,
     type: 'Flying',
     category: 'Physical',
+    isSlicing: true,
+    isWind: true,
     zp: 160,
     maxPower: 140,
   },
