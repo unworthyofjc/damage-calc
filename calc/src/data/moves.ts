@@ -4774,7 +4774,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	'Burning Jealousy': {maxPower: 100},
   'Ceaseless Edge': {zp: 160},
 	Chatter: {bp: 80},
-  Chloroblast: {zp: 160, maxPower: 140},
+  Chloroblast: {bp: 120, recoil: [33, 100], mindBlownRecoil: false, zp: 160, maxPower: 140},
 	'Clanging Scales': {zp: 190},
   'Collision Course': {maxPower: 110},
 	Covet: {type: 'Fairy'},
