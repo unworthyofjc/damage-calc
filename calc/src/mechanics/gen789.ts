@@ -467,7 +467,7 @@ export function calculateSMSSSV(
   }
 
   if (
-    field.hasWeather('Sun') && move.named('Hydro Steam') && !attacker.hasItem('Utility Umbrella')
+    field.hasWeather('Sun', 'Harsh Sunshine') && move.named('Hydro Steam') && !attacker.hasItem('Utility Umbrella')
   ) {
     baseDamage = pokeRound(OF32(baseDamage * 6144) / 4096);
     desc.weather = field.weather;
@@ -1265,7 +1265,7 @@ export function calculateAtModsSMSSSV(
 
   if (
     (attacker.hasAbility('Protosynthesis') &&
-      (field.hasWeather('Sun') || attacker.hasItem('Booster Energy'))) ||
+      (field.hasWeather('Sun', 'Harsh Sunshine') || attacker.hasItem('Booster Energy'))) ||
     (attacker.hasAbility('Quark Drive') &&
       (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))
   ) {
@@ -1412,7 +1412,7 @@ export function calculateDfModsSMSSSV(
 
   if (
     (defender.hasAbility('Protosynthesis') &&
-    (field.hasWeather('Sun') || attacker.hasItem('Booster Energy'))) ||
+    (field.hasWeather('Sun', 'Harsh Sunshine') || attacker.hasItem('Booster Energy'))) ||
     (defender.hasAbility('Quark Drive') &&
     (field.hasTerrain('Electric') || attacker.hasItem('Booster Energy')))
   ) {
