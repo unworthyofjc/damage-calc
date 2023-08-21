@@ -107,7 +107,8 @@ export function calculateSMSSSV(
     'Full Metal Body',
     'Neutralizing Gas',
     'Prism Armor',
-    'Shadow Shield'
+    'Shadow Shield',
+    'Primal Armor'
   );
 
   const attackerIgnoresAbility = attacker.hasAbility('Mold Breaker', 'Teravolt', 'Turboblaze');
