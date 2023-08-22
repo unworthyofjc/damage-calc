@@ -10059,6 +10059,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Thievul': {bs: {sa: 97, sp: 110}},
   'Throh': {bs: {df: 95, sd: 95}},
   'Tinkaton': {bs: {at: 85, df: 87}},
+  'Toedscruel': {bs: {at: 60, df: 80, sa: 90}},
   'Togedemaru': {bs: {at: 108}},
   'Torkoal': {bs: {at: 75, sa: 95}},
   'Toucannon': {bs: {hp: 90}},
