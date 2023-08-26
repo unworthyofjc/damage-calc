@@ -4892,6 +4892,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	'Tri Attack': {bp: 90, zp: 175},
   'Triple Arrows': {isKick: true, zp: 160, maxPower: 120},
 	'Triple Axel': {isKick: true, zp: 100},
+  'Triple Dive': {bp: 40},
 	'Triple Kick': {bp: 20, isKick: true, zp: 100},
 	'Trop Kick': {isKick: true},
 	'Volt Tackle': {recoil: [1, 4]},
