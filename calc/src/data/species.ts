@@ -9919,6 +9919,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Huntail': {types: ['Water', 'Dark']},
   'Illumise': {types: ['Bug', 'Fairy'], bs: {hp: 85, at: 90, sa: 47, sp: 100}},
   'Infernape': {bs: {at: 110, sa: 110, sp: 113}},
+  'Iron Thorns': {bs: {hp: 110}},
   'Jellicent': {bs: {df: 80, sa: 75}},
   'Jumpluff': {bs: {at: 85, sa: 35}},
   'Jynx': {bs: {df: 50, sp: 100}},
