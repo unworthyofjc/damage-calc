@@ -339,7 +339,7 @@ const RR = SV.concat([
   'Mountaineer',
   'ORAORAORAORA',
   'Parasitic Waste',
-  'Pheonix Down',
+  'Phoenix Down',
   'Primal Armor',
   'Quill Rush',
   'Sage Power',
