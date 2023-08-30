@@ -4836,7 +4836,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	'Meteor Beam': {maxPower: 120},
 	'Meteor Mash': {zp: 180},
   'Mortal Spin': {maxPower: 90},
-  'Mountain Gale': {zp: 195, maxPower: 140},
+  'Mountain Gale': {bp: 120, zp: 195, maxPower: 140},
 	'Mirror Shot': {secondaries: false},
 	'Mist Ball': {bp: 85, zp: 175, maxPower: 130},
 	'Mud Bomb': {secondaries: false},
