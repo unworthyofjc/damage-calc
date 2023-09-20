@@ -10297,6 +10297,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 40, at: 45, df: 35, sa: 30, sd: 40, sp: 55},
     weightkg: 8,
     abilities: {0: 'Cursed Body'},
+    nfe: true,
     baseSpecies: 'Noibat',
   },
   'Noivern-Sevii': {
@@ -10311,6 +10312,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     bs: {hp: 33, at: 46, df: 40, sa: 21, sd: 25, sp: 45},
     weightkg: 1,
     abilities: {0: 'Swarm'},
+    nfe: true,
     baseSpecies: 'Nymble',
   },
   'Orbeetle-Mega': {
