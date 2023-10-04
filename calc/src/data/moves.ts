@@ -4760,7 +4760,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Barb Barrage': {zp: 160, maxPower: 120},
 	'Beat Up': {bp: 25, multihit: [2, 5]},
   'Bitter Blade': {maxPower: 110},
-  'Bitter Malice': {zp: 120, maxPower: 120},
+  'Bitter Malice': {bp: 60, secondaries: false, zp: 120, maxPower: 120},
 	'Blast Burn': {bp: 160, secondaries: true},
 	'Blaze Kick': {isKick: true},
   'Bleakwind Storm': {maxPower: 120},
