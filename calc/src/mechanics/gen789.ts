@@ -569,7 +569,7 @@ export function calculateSMSSSV(
   let damage = [];
   for (let i = 0; i < 16; i++) {
     damage[i] =
-      getFinalDamage(baseDamage, i, typeEffectiveness, applyBurn, applyFrostbite, stabMod, finalMod, protect);
+      getFinalDamage(baseDamage, i, typeEffectiveness, applyBurn, stabMod, finalMod, protect, applyFrostbite);
   }
 
   if (move.dropsStats && move.timesUsed! > 1) {
@@ -590,10 +590,10 @@ export function calculateSMSSSV(
             damageMultiplier,
             typeEffectiveness,
             applyBurn,
-            applyFrostbite,
             stabMod,
             finalMod,
-            protect
+            protect,
+            applyFrostbite
           );
           damageMultiplier++;
           return affectedAmount + newFinalDamage;
