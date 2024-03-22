@@ -512,6 +512,9 @@ const SV = SS.concat([
   'Wellspring Mask',
 ]);
 
+// RR
+SV.push('Burnt Seed');
+
 const BERRIES: {[berry: string]: {t: I.TypeName; p: number}} = {
   'Aguav Berry': {t: 'Dragon', p: 80},
   'Apicot Berry': {t: 'Ground', p: 100},

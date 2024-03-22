@@ -5032,6 +5032,7 @@ const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 	Stomp: {isKick: true},
   'Stone Axe': {zp: 160, maxPower: 130},
 	'Sucker Punch': {zp: 160},
+  'Supercell Slam': {bp: 120},
 	'Surging Strikes': {isPunch: false, zp: 190},
 	'Tail Slap': {zp: 100},
 	'Thousand Arrows': {zp: 175},

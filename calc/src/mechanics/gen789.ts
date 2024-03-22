@@ -1134,7 +1134,11 @@ export function calculateBPModsSMSSSV(
 
   // Items
 
-  if (attacker.hasItem(`${move.type} Gem`)) {
+  if (
+    attacker.hasItem(`${move.type} Gem`) ||
+    (attacker.named('Electivire') && attacker.hasItem('Electirizer') && move.hasType('Fighting')) ||
+    (attacker.named('Sunflora') && attacker.hasItem('Burnt Seed') && move.hasType('Fire'))
+  ) {
     bpMods.push(6144);
     desc.attackerItem = attacker.item;
   } else if (
