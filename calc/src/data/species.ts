@@ -10386,7 +10386,7 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Chillet': {
     types: ['Ice', 'Dragon'],
     bs: {hp: 85, at: 100, df: 74, sa: 45, sd: 65, sp: 111},
-    weightkg: 0,
+    weightkg: 32.5,
     abilities: {0: 'Refriegerate'},
   },
   'Clauncher-Sevii': {
