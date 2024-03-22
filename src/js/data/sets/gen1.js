@@ -83,8 +83,7 @@ var SETDEX_RBY = {
     "PU Bulky Status Spreader": {"moves":["Sleep Powder","Stun Spore","Swords Dance","Hyper Beam"]}
   },
   "Parasect": {
-    "PU Setup Sleeper": {"moves":["Spore","Stun Spore","Swords Dance","Hyper Beam"]},
-    "NU Showdown Usage": {"moves":["Spore","Mega Drain","Body Slam","Swords Dance"]}
+    "PU Setup Sleeper": {"moves":["Spore","Stun Spore","Swords Dance","Hyper Beam"]}
   },
   "Venomoth": {
     "NU Double Powder": {"moves":["Sleep Powder","Stun Spore","Psychic","Double-Edge"]}
@@ -231,8 +230,7 @@ var SETDEX_RBY = {
     "OU Sleeper": {"moves":["Hypnosis","Thunderbolt","Night Shade","Explosion"]},
     "Ubers Sleeper": {"moves":["Hypnosis","Night Shade","Thunderbolt","Explosion"]},
     "1v1 Rest": {"moves":["Thunderbolt","Psychic","Rest","Substitute"]},
-    "Tradebacks OU Offensive": {"moves":["Hypnosis","Thunderbolt","Ice Punch","Explosion"]},
-    "Tradebacks OU Support": {"moves":["Rest","Thunderbolt","Ice Punch","Hypnosis"]}
+    "Tradebacks OU Standard": {"moves":["Hypnosis","Thunderbolt","Ice Punch","Explosion"]}
   },
   "Onix": {
     "PU Bind Pivot": {"moves":["Bind","Toxic","Earthquake","Explosion"]}
@@ -254,7 +252,8 @@ var SETDEX_RBY = {
   "Electrode": {
     "Ubers Explosion": {"moves":["Thunder Wave","Thunderbolt","Screech","Explosion"]},
     "UU Fast Attacker": {"moves":["Thunderbolt","Thunder Wave","Explosion","Screech"]},
-    "1v1 Screech + Hyper Beam": {"moves":["Thunderbolt","Hyper Beam","Screech","Rest"]}
+    "1v1 Screech + Hyper Beam": {"moves":["Thunderbolt","Hyper Beam","Screech","Rest"]},
+    "OU Showdown Usage": {"moves":["Explosion","Thunderbolt","Thunder Wave","Toxic"]}
   },
   "Exeggcute": {
     "NU Support": {"moves":["Sleep Powder","Stun Spore","Psychic","Explosion"]},
