@@ -1129,7 +1129,10 @@ export function calculateBPModsSMSSSV(
     (attacker.hasAbility('Analytic') &&
       (turnOrder !== 'first' || field.defenderSide.isSwitching === 'out')) ||
     (attacker.hasAbility('Tough Claws') && move.flags.contact) ||
-    (attacker.hasAbility('Punk Rock') && move.flags.sound)
+    (attacker.hasAbility('Punk Rock') && move.flags.sound) ||
+    (attacker.hasAbility('Iron Fist') && move.flags.punch) ||
+    (attacker.hasAbility('Striker') && move.flags.kick) ||
+    (attacker.hasAbility('Illusion') && attacker.abilityOn)
   ) {
     bpMods.push(5325);
     desc.attackerAbility = attacker.ability;
