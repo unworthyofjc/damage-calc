@@ -4290,7 +4290,7 @@ const BW_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Jellicent: {
     types: ['Water', 'Ghost'],
-    bs: {hp: 100, at: 60, df: 70, sa: 85, sd: 105, sp: 60},
+    bs: {hp: 100, at: 60, df: 80, sa: 85, sd: 105, sp: 60},
     weightkg: 135,
     abilities: {0: 'Water Absorb'},
   },
