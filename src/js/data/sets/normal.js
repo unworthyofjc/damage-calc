@@ -1628,7 +1628,7 @@ var SETDEX_SV = {
     "Team Rocket Grunt": {"nature":"Hardy","ability":"Pressure","level":49,"moves":["Brave Bird","Drill Peck","Iron Defense","Swagger"],"IVs":{"hp":15,"at":15,"df":15,"sp":15,"sa":15,"sd":15}}
   },
   "Marowak-Alola": {
-    "Ghost": {"nature":"Jolly","ability":"Bone Zone ","level":58,"item":"Thick Club","moves":["Bonemerang","Fire Punch","Shadow Bone","Thunder Punch"],"EVs":{"hp":252,"at":252,"df":252,"sp":252,"sa":252,"sd":252}},
+    "Ghost": {"nature":"Jolly","ability":"Bone Zone ","level":58,"item":"Thick Club","moves":["Bonemerang","Fire Punch","Shadow Bone","Thunder Punch"],"EVs":{"hp":252,"at":252,"df":252,"sp":252,"sd":252}},
     "Team Rocket Grunt": {"nature":"Naive","ability":"Rock Head","level":46,"moves":["Bone Rush","Endeavor","Flare Blitz","Retaliate"],"IVs":{"hp":15,"at":15,"df":15,"sp":15,"sa":15,"sd":15}}
   },
   "Gliscor": {
