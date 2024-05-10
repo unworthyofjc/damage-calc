@@ -810,7 +810,7 @@ var SETDEX_SV = {
   },
   "Darmanitan-Galar": {
     "*Crush Girl Sharon": {"nature":"Jolly","ability":"Zen Mode","level":100,"item":"Charcoal","moves":["Earthquake","Flare Blitz","Icicle Crash","U-turn"],"EVs":{"at":252,"df":4,"sp":252}},
-    "*Camper Justin": {"nature":"Jolly","ability":"Gorilla Tactics","level":29,"item":"Choice Scarf","moves":["Earthquake","Flare Blitz","Icicle Crash","U-turn"],"EVs":{"at":252,"sp":252,"sd":4}},
+    "*Camper Justin": {"nature":"Jolly","ability":"Gorilla Tactics","level":64,"item":"Choice Scarf","moves":["Earthquake","Flare Blitz","Icicle Crash","U-turn"],"EVs":{"at":252,"sp":252,"sd":4}},
     "*Ace Trainer Lucy": {"nature":"Jolly","ability":"Zen Mode","level":71,"item":"Life Orb","moves":["Earthquake","Flare Blitz","Icicle Crash","U-turn"],"EVs":{"at":252,"df":4,"sp":252}}
   },
   "Sandslash-Alola": {
