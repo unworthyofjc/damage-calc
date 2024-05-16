@@ -2242,7 +2242,7 @@ var SETDEX_SV = {
     "Burglar Quinn": {"nature":"Naughty","ability":"Reckless","level":74,"moves":["Flamethrower","Flare Blitz","Head Smash","Jump Kick"],"IVs":{"hp":10,"at":10,"df":10,"sp":10,"sa":10,"sd":10}}
   },
   "Jolteon": {
-    "*Bird Keeper Robert": {"nature":"Timid","ability":"Volt Absorb","level":63,"item":"Life Orb","moves":["Hidden Power Psychic","Thunderbolt","Volt Switch","Weather Ball"],"IVs":{"at":30,"sa":30},"EVs":{"df":4,"sp":252,"sa":252}},
+    "*Bird Keeper Robert": {"nature":"Timid","ability":"Volt Absorb","level":63,"item":"Life Orb","moves":["Hidden Power Grass","Thunderbolt","Volt Switch","Weather Ball"],"IVs":{"at":30,"sa":30},"EVs":{"df":4,"sp":252,"sa":252}},
     "*SwimmerF Tisha": {"nature":"Timid","ability":"Volt Absorb","level":100,"item":"Ice Gem","moves":["Hidden Power Fighting","Shadow Ball","Thunder","Weather Ball"],"IVs":{"at":30,"df":30},"EVs":{"df":4,"sp":252,"sa":252}},
     "*Professor Oak": {"nature":"Timid","ability":"Volt Absorb","level":100,"item":"Eevium Z","moves":["Hidden Power Fighting","Last Resort","Shadow Ball","Thunderbolt"],"IVs":{"at":30,"df":30},"EVs":{"sp":252,"sa":252,"sd":4}}
   },
