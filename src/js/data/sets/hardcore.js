@@ -52,7 +52,7 @@ var SETDEX_SV = {
   },
   "Lileep": {
     "Hiker Lenny": {"nature":"Brave","ability":"Suction Cups","level":31,"moves":["Spit Up","Stockpile","Swallow","Wring Out"],"IVs":{"hp":10,"at":10,"df":10,"sp":10,"sa":10,"sd":10}},
-    "Leader Brock": {"nature":"Bold","ability":"Storm Drain","level":16,"item":"Oran Berry","moves":["Hidden Power Psychic","Mega Drain","Recover","Stockpile"],"IVs":{"at":30,"df":30,"sp":30,"sd":30}}
+    "Leader Brock": {"nature":"Bold","ability":"Storm Drain","level":16,"item":"Oran Berry","moves":["Hidden Power Rock","Mega Drain","Recover","Stockpile"],"IVs":{"at":30,"df":30,"sp":30,"sd":30}}
   },
   "Archen": {
     "Leader Brock": {"nature":"Bashful","ability":"Defeatist","level":14,"item":"Iapapa Berry","moves":["Bulldoze","Facade","Rock Tomb","Wing Attack"]}
@@ -167,7 +167,7 @@ var SETDEX_SV = {
   },
   "Pikachu-Flying": {
     "*Leader Misty": {"nature":"Timid","ability":"Lightning Rod","level":100,"item":"Light Ball","moves":["Electroweb","Fake Out","Hurricane","Thunder"]},
-    "*Lass Sally": {"nature":"Naive","ability":"Lightning Rod","level":21,"item":"Light Ball","moves":["Extreme Speed","Grass Knot","Hidden Power Psychic","Zippy Zap"],"IVs":{"sp":30,"sa":30,"sd":30}}
+    "*Lass Sally": {"nature":"Naive","ability":"Lightning Rod","level":21,"item":"Light Ball","moves":["Extreme Speed","Grass Knot","Hidden Power Flying","Zippy Zap"],"IVs":{"sp":30,"sa":30,"sd":30}}
   },
   "Oricorio-Sensu": {
     "*Lass Sally": {"nature":"Timid","ability":"Dancer","level":22,"item":"Spell Tag","moves":["Air Cutter","Calm Mind","Hidden Power Fire","Roost"],"IVs":{"df":30,"sd":30}}
@@ -2414,7 +2414,7 @@ var SETDEX_SV = {
     "Burglar Quinn": {"nature":"Naughty","ability":"Reckless","level":74,"moves":["Flamethrower","Flare Blitz","Head Smash","Jump Kick"],"IVs":{"hp":10,"at":10,"df":10,"sp":10,"sa":10,"sd":10}}
   },
   "Jolteon": {
-    "*Bird Keeper Robert": {"nature":"Timid","ability":"Volt Absorb","level":66,"item":"Eevium Z","moves":["Hidden Power Psychic","Last Resort","Thunderbolt","Weather Ball"],"IVs":{"at":30,"sa":30}},
+    "*Bird Keeper Robert": {"nature":"Timid","ability":"Volt Absorb","level":66,"item":"Eevium Z","moves":["Hidden Power Grass","Last Resort","Thunderbolt","Weather Ball"],"IVs":{"at":30,"sa":30}},
     "*SwimmerF Tisha": {"nature":"Timid","ability":"Volt Absorb","level":100,"item":"Ice Gem","moves":["Hidden Power Fighting","Shadow Ball","Thunder","Weather Ball"],"IVs":{"at":30,"df":30}},
     "*Professor Oak": {"nature":"Timid","ability":"Volt Absorb","level":100,"item":"Eevium Z","moves":["Hidden Power Fighting","Last Resort","Shadow Ball","Thunderbolt"],"IVs":{"at":30,"df":30}}
   },
