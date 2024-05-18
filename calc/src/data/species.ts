@@ -6686,13 +6686,12 @@ const SM_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
     gender: 'N',
     abilities: {0: 'Iron Fist'},
   },
-  // Meltan does NOT benefit from Eviolite and should not have nfe: true (credit: Anubis)
-  // https://smogon.com/forums/threads/sword-shield-battle-mechanics-research.3655528/post-8295399
   Meltan: {
     types: ['Steel'],
     bs: {hp: 46, at: 65, df: 65, sa: 55, sd: 35, sp: 34},
     weightkg: 8,
     gender: 'N',
+    nfe: true,
     abilities: {0: 'Magnet Pull'},
   },
   'Meowth-Alola': {
