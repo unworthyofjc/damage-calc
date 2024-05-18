@@ -10046,6 +10046,8 @@ const RR_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   'Articuno-Galar': {bs: {at: 70, df: 95, sp: 100}},
   'Avalugg-Hisui': {bs: {hp: 100, at: 132, sp: 28}},
   'Banette-Mega': {types: ['Ghost', 'Normal']},
+  'Basculin': {nfe: true},
+  'Basculin-Blue-Striped': {nfe: true},
   'Beartic': {types: ['Ice', 'Fighting'], bs: {at: 140}},
   'Beautifly': {bs: {at: 60, sa: 105, sp: 75}},
   'Beheeyem': {bs: {hp: 95}},
