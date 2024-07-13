@@ -889,13 +889,9 @@ export function calculateBasePowerSMSSSV(
     break;
   // Triple Axel's damage increases after each consecutive hit (20, 40, 60)
   case 'Triple Axel':
+  case 'Triple Kick':
     basePower = hit * 20;
     desc.moveBP = move.hits === 2 ? 60 : move.hits === 3 ? 120 : 20;
-    break;
-  // Triple Kick's damage increases after each consecutive hit (10, 20, 30)
-  case 'Triple Kick':
-    basePower = hit * 10;
-    desc.moveBP = move.hits === 2 ? 30 : move.hits === 3 ? 60 : 10;
     break;
   case 'Crush Grip':
   case 'Wring Out':
