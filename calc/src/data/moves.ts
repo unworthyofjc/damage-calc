@@ -1753,7 +1753,7 @@ const XY_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   Lick: {bp: 30},
   'Low Sweep': {bp: 65},
   'Meteor Mash': {bp: 90},
-  'Muddy Water': {bp: 90},
+  'Muddy Water': {bp: 95},
   Octazooka: {isBullet: true},
   Overheat: {bp: 130},
   'Pin Missile': {bp: 25},
