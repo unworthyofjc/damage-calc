@@ -4900,7 +4900,6 @@ const SV_PATCH: {[name: string]: DeepPartial<MoveData>} = {
 
 const RR_PATCH: {[name: string]: DeepPartial<MoveData>} = {
   'Aerial Ace': {isSlicing: false},
-  'Air Slash': {isSlicing: false},
   'Aqua Step': {isKick: true, zp: 140, maxPower: 120},
   'Armor Cannon': {isPulse: true},
   'Arm Thrust': {bp: 25},
