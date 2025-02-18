@@ -340,7 +340,7 @@ var SETDEX_SV = {
     "*Leader Pryce Set 1": {"nature":"Modest","ability":"Magic Guard","level":73,"item":"Life Orb","moves":["Blizzard","Flamethrower","Light of Ruin","Teleport"]},
     "*Leader Pryce Set 2": {"nature":"Modest","ability":"Magic Guard","level":73,"item":"Life Orb","moves":["Flamethrower","Light of Ruin","Teleport","Thunder Wave"]},
     "Beauty Grace": {"nature":"Rash","ability":"Cute Charm","level":58,"moves":["Double Slap","Metronome","Moonblast","Teleport"],"ivs":{"hp":10,"at":10,"df":10,"sp":10,"sa":10,"sd":10}},
-    "*Rival Blue": {"nature":"Timid","ability":"Magic Guard","level":27,"item":"Life Orb","moves":["Charge Beam","Drain Kiss","Icy Wind","Mystical Fire"]},
+    "*Rival Blue": {"nature":"Timid","ability":"Magic Guard","level":27,"item":"Life Orb","moves":["Charge Beam","Draining Kiss","Icy Wind","Mystical Fire"]},
     "*Ace Trainer Alexa": {"nature":"Modest","ability":"Magic Guard","level":85,"item":"Life Orb","moves":["Fire Blast","Moonblast","Stealth Rock","Thunderbolt"]},
     "Picnicker Heidi": {"nature":"Brave","ability":"Magic Guard","level":29,"moves":["Double Slap","Metronome","Moonblast","Teleport"],"ivs":{"hp":5,"at":5,"df":5,"sp":5,"sa":5,"sd":5}},
     "Dumbass Gambler": {"nature":"Quiet","ability":"Magic Guard","level":100,"item":"Life Orb","moves":["Metronome"]}
@@ -426,7 +426,7 @@ var SETDEX_SV = {
   },
   "Togetic": {
     "Picnicker Martha": {"nature":"Modest","ability":"Hustle","level":32,"moves":["After You","Double-Edge","Last Resort","Moonblast"],"ivs":{"hp":5,"at":5,"df":5,"sp":5,"sa":5,"sd":5}},
-    "*Lass Reli": {"nature":"Bashful","ability":"Serene Grace","level":25,"item":"Eviolite","moves":["Air Slash","Drain Kiss","Magical Leaf","Thunder Wave"]}
+    "*Lass Reli": {"nature":"Bashful","ability":"Serene Grace","level":25,"item":"Eviolite","moves":["Air Slash","Draining Kiss","Magical Leaf","Thunder Wave"]}
   },
   "Clamperl": {
     "Sailor Dylan": {"nature":"Bashful","ability":"Shell Armor","level":27,"moves":["Aurora Beam","Iron Defense","Shell Smash","Whirlpool"],"ivs":{"hp":10,"at":10,"df":10,"sp":10,"sa":10,"sd":10}},
@@ -447,17 +447,17 @@ var SETDEX_SV = {
     "*Youngster Timmy": {"nature":"Bashful","ability":"Ice Body","level":26,"item":"Occa Berry","moves":["Ice Shard","Icicle Crash","Mega Drain","Water Pulse"]}
   },
   "Jigglypuff": {
-    "*Lass Ali": {"nature":"Bold","ability":"Friend Guard","level":27,"item":"Eviolite","moves":["Drain Kiss","Icy Wind","Incinerate","Round"]}
+    "*Lass Ali": {"nature":"Bold","ability":"Friend Guard","level":27,"item":"Eviolite","moves":["Draining Kiss","Icy Wind","Incinerate","Round"]}
   },
   "Amaura": {
     "*Lass Ali": {"nature":"Modest","ability":"Refrigerate","level":26,"item":"Chople Berry","moves":["Ancient Power","Mud Shot","Round","Water Pulse"]}
   },
   "Brionne": {
-    "*Lass Ali": {"nature":"Modest","ability":"Liquid Voice","level":26,"item":"Sitrus Berry","moves":["Aqua Jet","Drain Kiss","Icy Wind","Round"]}
+    "*Lass Ali": {"nature":"Modest","ability":"Liquid Voice","level":26,"item":"Sitrus Berry","moves":["Aqua Jet","Draining Kiss","Icy Wind","Round"]}
   },
   "Vivillon": {
     "Bug Catcher Brent": {"nature":"Naughty","ability":"Compound Eyes","level":29,"moves":["Bug Buzz","Hurricane","Quiver Dance","Safeguard"],"ivs":{"hp":1,"at":1,"df":1,"sp":1,"sa":1,"sd":1}},
-    "*Bug Catcher Cale": {"nature":"Bashful","ability":"Friend Guard","level":25,"item":"Charti Berry","moves":["Air Cutter","Drain Kiss","Electroweb","Struggle Bug"]}
+    "*Bug Catcher Cale": {"nature":"Bashful","ability":"Friend Guard","level":25,"item":"Charti Berry","moves":["Air Cutter","Draining Kiss","Electroweb","Struggle Bug"]}
   },
   "Wormadam-Sandy": {
     "*Bug Catcher Cale": {"nature":"Careful","ability":"Overcoat","level":26,"item":"Rocky Helmet","moves":["Bug Bite","Bulldoze","Rock Tomb","Sucker Punch"]}
@@ -1820,10 +1820,10 @@ var SETDEX_SV = {
     "Rocket Admin Ariana": {"nature":"Careful","ability":"Intimidate","level":55,"item":"Sitrus Berry","moves":["Fake Out","Flare Blitz","Knock Off","Will-O-Wisp"]}
   },
   "Primarina": {
-    "*Team Rocket Grunt": {"nature":"Timid","ability":"Liquid Voice","level":56,"item":"Leftovers","moves":["Calm Mind","Drain Kiss","Hyper Voice","Psychic"]},
-    "*Rival Blue": {"nature":"Modest","ability":"Liquid Voice","level":82,"item":"Leftovers","moves":["Calm Mind","Drain Kiss","Hyper Voice","Ice Beam"]},
+    "*Team Rocket Grunt": {"nature":"Timid","ability":"Liquid Voice","level":56,"item":"Leftovers","moves":["Calm Mind","Draining Kiss","Hyper Voice","Psychic"]},
+    "*Rival Blue": {"nature":"Modest","ability":"Liquid Voice","level":82,"item":"Leftovers","moves":["Calm Mind","Draining Kiss","Hyper Voice","Ice Beam"]},
     "Rocket Admin Ariana": {"nature":"Modest","ability":"Liquid Voice","level":55,"item":"Throat Spray","moves":["Energy Ball","Hyper Voice","Psychic","Scald"]},
-    "*Aroma Lady Violet": {"nature":"Bold","ability":"Liquid Voice","level":100,"item":"Leftovers","moves":["Calm Mind","Drain Kiss","Hyper Voice","Substitute"]}
+    "*Aroma Lady Violet": {"nature":"Bold","ability":"Liquid Voice","level":100,"item":"Leftovers","moves":["Calm Mind","Draining Kiss","Hyper Voice","Substitute"]}
   },
   "Mawile-Mega": {
     "*Rocket Admin Ariana Set 1": {"nature":"Adamant","ability":"Huge Power","level":79,"item":"Mawilite","moves":["Double Iron Bash","Fire Fang","Play Rough","Sucker Punch"],"ivs":{"sa":0}},
@@ -1974,7 +1974,7 @@ var SETDEX_SV = {
     "*PkMn Trainer Cole": {"nature":"Timid","ability":"Berserk","level":59,"item":"Weakness Policy","moves":["Agility","Air Slash","Fiery Wrath","Scorching Sands"]}
   },
   "Tapu Fini": {
-    "*PkMn Trainer Cole": {"nature":"Bold","ability":"Misty Surge","level":59,"item":"Leftovers","moves":["Calm Mind","Drain Kiss","Ice Beam","Surf"]},
+    "*PkMn Trainer Cole": {"nature":"Bold","ability":"Misty Surge","level":59,"item":"Leftovers","moves":["Calm Mind","Draining Kiss","Ice Beam","Surf"]},
     "Leader Sabrina": {"nature":"Quiet","ability":"Misty Surge","level":59,"item":"Focus Sash","moves":["Flip Turn","Misty Explosion","Moonblast","Muddy Water"],"shiny":1,"ivs":{"at":0,"sp":0}},
     "*Elite Four Lorelei": {"nature":"Modest","ability":"Misty Surge","level":85,"item":"Leftovers","moves":["Blizzard","Calm Mind","Moonblast","Muddy Water"]}
   },
@@ -2101,7 +2101,7 @@ var SETDEX_SV = {
   },
   "Magearna": {
     "Leader Clair": {"nature":"Modest","ability":"Soul-Heart","level":81,"item":"Weakness Policy","moves":["Aura Sphere","Moonblast","Shift Gear","Thunderbolt"]},
-    "*Leader Erika": {"nature":"Bold","ability":"Soul-Heart","level":68,"item":"Grassy Seed","moves":["Aura Sphere","Calm Mind","Drain Kiss","Stored Power"]},
+    "*Leader Erika": {"nature":"Bold","ability":"Soul-Heart","level":68,"item":"Grassy Seed","moves":["Aura Sphere","Calm Mind","Draining Kiss","Stored Power"]},
     "Leader Sabrina": {"nature":"Quiet","ability":"Soul-Heart","level":59,"item":"Fightinium Z","moves":["Flash Cannon","Focus Blast","Moonblast","Thunderbolt"],"shiny":1,"ivs":{"at":0,"sp":0}}
   },
   "Iron Hands": {
@@ -2428,8 +2428,8 @@ var SETDEX_SV = {
     "*Biker Jared": {"nature":"Adamant","ability":"Sturdy","level":66,"item":"Custap Berry","moves":["Earthquake","Spikes","Stealth Rock","Stone Edge"]}
   },
   "Hatterene": {
-    "*Juggler Kayden": {"nature":"Bold","ability":"Magic Bounce","level":68,"item":"Life Orb","moves":["Drain Kiss","Misty Explosion","Mystical Fire","Psyshock"]},
-    "*Ace Trainer Rolando": {"nature":"Modest","ability":"Magic Bounce","level":85,"item":"Leftovers","moves":["Calm Mind","Drain Kiss","Mystical Fire","Psyshock"]}
+    "*Juggler Kayden": {"nature":"Bold","ability":"Magic Bounce","level":68,"item":"Life Orb","moves":["Draining Kiss","Misty Explosion","Mystical Fire","Psyshock"]},
+    "*Ace Trainer Rolando": {"nature":"Modest","ability":"Magic Bounce","level":85,"item":"Leftovers","moves":["Calm Mind","Draining Kiss","Mystical Fire","Psyshock"]}
   },
   "Turtonator": {
     "*Juggler Kayden": {"nature":"Brave","ability":"Shell Armor","level":68,"item":"Leftovers","moves":["Dragon Pulse","Explosion","Flamethrower","Focus Blast"]}
@@ -2825,7 +2825,7 @@ var SETDEX_SV = {
     "*Burglar Max": {"nature":"Modest","ability":"Regenerator","level":80,"item":"Assault Vest","moves":["Body Press","Earth Power","Fickle Beam","Giga Drain"]}
   },
   "Fezandipiti": {
-    "*Burglar Max": {"nature":"Timid","ability":"Technician","level":80,"item":"Life Orb","moves":["Drain Kiss","Heat Wave","Sludge Bomb","U-turn"]}
+    "*Burglar Max": {"nature":"Timid","ability":"Technician","level":80,"item":"Life Orb","moves":["Draining Kiss","Heat Wave","Sludge Bomb","U-turn"]}
   },
   "Munkidori": {
     "*Burglar Anson": {"nature":"Timid","ability":"Frisk","level":80,"item":"Air Balloon","moves":["Focus Blast","Nasty Plot","Psychic","Sludge Bomb"]}
@@ -2952,7 +2952,7 @@ var SETDEX_SV = {
     "*Elite Four Agatha": {"nature":"Hasty","ability":"Victory Star","level":85,"item":"Normalium Z","moves":["Celebrate","Expanding Force","Focus Blast","Pyro Ball"]}
   },
   "Calyrex-Shadow": {
-    "*Elite Four Agatha": {"nature":"Timid","ability":"As One","level":85,"item":"Colbur Berry","moves":["Astral Barrage","Drain Kiss","Expanding Force","Nasty Plot"]}
+    "*Elite Four Agatha": {"nature":"Timid","ability":"As One","level":85,"item":"Colbur Berry","moves":["Astral Barrage","Draining Kiss","Expanding Force","Nasty Plot"]}
   },
   "Melmetal": {
     "*Elite Four Lance": {"nature":"Careful","ability":"Iron Fist","level":85,"item":"Assault Vest","moves":["Double Iron Bash","Earthquake","Ice Punch","Thunder Punch"]}
@@ -2981,7 +2981,7 @@ var SETDEX_SV = {
     "*Champion Blue": {"nature":"Timid","ability":"Multitype","level":85,"item":"Groundium Z","moves":["Calm Mind","Earth Power","Ice Beam","Recover"]}
   },
   "Xerneas": {
-    "*Rocket Admin Ariana": {"nature":"Jolly","ability":"Fairy Aura","level":100,"item":"Power Herb","moves":["Drain Kiss","Geomancy","Moonblast","Thunderbolt"]},
+    "*Rocket Admin Ariana": {"nature":"Jolly","ability":"Fairy Aura","level":100,"item":"Power Herb","moves":["Draining Kiss","Geomancy","Moonblast","Thunderbolt"]},
     "*Champion Blue": {"nature":"Timid","ability":"Fairy Aura","level":85,"item":"Power Herb","moves":["Focus Blast","Geomancy","Moonblast","Thunderbolt"]}
   },
   "Eternatus-Eternamax": {
