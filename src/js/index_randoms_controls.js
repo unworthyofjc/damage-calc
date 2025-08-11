@@ -96,44 +96,8 @@ function performCalculations() {
 		stickyMoves.setSelectedMove(bestResult.prop("id"));
 	}
 	bestResult.prop("checked", true);
-	bestResult.change();
-	$("#resultHeaderL").text(p1.name + "'s Moves (select one to show detailed results)");
-	$("#resultHeaderR").text(p2.name + "'s Moves (select one to show detailed results)");
-}
-
-$(".result-move").change(function () {
-	if (damageResults) {
-		var result = findDamageResult($(this));
-		if (result) {
-			var desc = result.fullDesc(notation, false);
-			if (desc.indexOf('--') === -1) desc += ' -- possibly the worst move ever';
-			$("#mainResult").text(desc);
-			$("#damageValues").text("Possible damage amounts: (" + displayDamageHits(result.damage) + ")");
-		}
-	}
-});
-
-function displayDamageHits(damage) {
-	// Fixed Damage
-	if (typeof damage === 'number') return damage;
-	// Standard Damage
-	if (damage.length > 2) return damage.join(', ');
-	// Fixed Parental Bond Damage
-	if (typeof damage[0] === 'number' && typeof damage[1] === 'number') {
-		return '1st Hit: ' + damage[0] + '; 2nd Hit: ' + damage[1];
-	}
-	// Parental Bond Damage
-	return '1st Hit: ' + damage[0].join(', ') + '; 2nd Hit: ' + damage[1].join(', ');
-}
-
-function findDamageResult(resultMoveObj) {
-	var selector = "#" + resultMoveObj.attr("id");
-	for (var i = 0; i < resultLocations.length; i++) {
-		for (var j = 0; j < resultLocations[i].length; j++) {
-			if (resultLocations[i][j].move === selector) {
-				return damageResults[i][j];
-			}
-		}
+	if (m && m !== 'one-vs-one' && m !== 'one-vs-all' && m !== 'all-vs-one') {
+		window.location.replace('index' + linkExtension + '?' + params);
 	}
 }
 
@@ -159,21 +123,19 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field) {
 		results[0][i] = calc.calculate(gen, p1, p2, p1.moves[i], p1field);
 		results[1][i] = calc.calculate(gen, p2, p1, p2.moves[i], p2field);
 	}
+	return results;
+}
+
+$(".mode").change(function () {
 	var params = new URLSearchParams(window.location.search);
-	var mode = $(this).attr("id");
-	
-	if (mode === "one-vs-one") {
+	if ($("#one-vs-one").prop("checked")) {
 		params.delete('mode');
 		params = '' + params;
 		window.location.replace('index' + linkExtension + (params.length ? '?' + params : ''));
-	} else if (mode === "one-vs-all" || mode === "all-vs-one") {
-		params.set('mode', mode);
+	} else if ($("#one-vs-all").prop("checked")) {
+		params.set('mode', 'one-vs-all');
 		window.location.replace('honkalculate' + linkExtension + '?' + params);
-	} else if (mode === "oms") {
-		params.delete('mode');
-		params = '' + params;
-		window.location.replace('oms' + linkExtension + (params.length ? '?' + params : ''));
-	}
+	} else if ($("#all-vs-one").prop("checked")) {
 });
 
 $(".notation").change(function () {
@@ -219,7 +181,7 @@ $(document).ready(function () {
 				} else if (m === 'hardcore') {
 					window.location.replace('hardcore' + linkExtension + '?' + params);
 				}
-			}
+		params.set('mode', 'all-vs-one');
 		}
 	}
 	$(".calc-trigger").bind("change keyup", PC_HANDLER);
