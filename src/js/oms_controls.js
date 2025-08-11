@@ -362,3 +362,17 @@ $(document).ready(function () {
 $(".calc-trigger").bind("change keyup", function () {
 	setTimeout(performCalculationsOM, 0);
 });
+
+$(".mode").change(function () {
+	var params = new URLSearchParams(window.location.search);
+	var mode = $(this).attr("id");
+	
+	if (mode === "one-vs-one") {
+		params.delete('mode');
+		params = '' + params;
+		window.location.replace('index' + linkExtension + (params.length ? '?' + params : ''));
+	} else if (mode === "one-vs-all" || mode === "all-vs-one") {
+		params.set('mode', mode);
+		window.location.replace('honkalculate' + linkExtension + '?' + params);
+	}
+});
