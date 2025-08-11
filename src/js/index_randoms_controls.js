@@ -159,25 +159,20 @@ function calculateAllMoves(gen, p1, p1field, p2, p2field) {
 		results[0][i] = calc.calculate(gen, p1, p2, p1.moves[i], p1field);
 		results[1][i] = calc.calculate(gen, p2, p1, p2.moves[i], p2field);
 	}
-	return results;
-}
-
-$(".mode").change(function () {
 	var params = new URLSearchParams(window.location.search);
-	params.set('mode', $(this).attr("id"));
-	var mode = params.get('mode');
-	if (mode === 'randoms') {
-		window.location.replace('randoms' + linkExtension + '?' + params);
-	} else if (mode === 'one-vs-one') {
-		window.location.replace('index' + linkExtension + '?' + params);
-	} else if (mode === 'normal') {
-		window.location.replace('normal' + linkExtension + '?' + params);
-	} else if (mode === 'hardcore') {
-		window.location.replace('hardcore' + linkExtension + '?' + params);
-	} else if (mode === "oms") {
-		window.location.replace('oms' + linkExtension);
-	} else {
+	var mode = $(this).attr("id");
+	
+	if (mode === "one-vs-one") {
+		params.delete('mode');
+		params = '' + params;
+		window.location.replace('index' + linkExtension + (params.length ? '?' + params : ''));
+	} else if (mode === "one-vs-all" || mode === "all-vs-one") {
+		params.set('mode', mode);
 		window.location.replace('honkalculate' + linkExtension + '?' + params);
+	} else if (mode === "oms") {
+		params.delete('mode');
+		params = '' + params;
+		window.location.replace('oms' + linkExtension + (params.length ? '?' + params : ''));
 	}
 });
 

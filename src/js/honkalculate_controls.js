@@ -238,25 +238,17 @@ function placeBsBtn() {
 }
 
 $(".mode").change(function () {
-	if ($("#one-vs-one").prop("checked")) {
-		var params = new URLSearchParams(window.location.search);
+	var params = new URLSearchParams(window.location.search);
+	var mode = $(this).attr("id");
+	
+	if (mode === "one-vs-one") {
 		params.delete('mode');
 		params = '' + params;
 		window.location.replace('index' + linkExtension + (params.length ? '?' + params : ''));
-	} else if ($("#randoms").prop("checked")) {
-		var params = new URLSearchParams(window.location.search);
-		params.delete('mode');
-		params = '' + params;
-		window.location.replace('randoms' + linkExtension + (params.length ? '?' + params : ''));
-	} else if ($("#oms").prop("checked")) {
-		var params = new URLSearchParams(window.location.search);
+	} else if (mode === "oms") {
 		params.delete('mode');
 		params = '' + params;
 		window.location.replace('oms' + linkExtension + (params.length ? '?' + params : ''));
-	} else {
-		var params = new URLSearchParams(window.location.search);
-		params.set('mode', $(this).attr("id"));
-		window.location.replace('honkalculate' + linkExtension + '?' + params);
 	}
 });
 
